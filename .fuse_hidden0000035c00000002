@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Elements</title>
+</head>
+
+<body>
+    <div class="main">
+        <header></header>
+        <div class="container">
+            <ul>
+                <li>
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox"> checkbox </label>
+                </li>
+                <li>
+					<input type="radio" name="radio" id="radio">
+					<label for="radio"> radio </label>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <footer></footer>
+</body>
+
+</html>

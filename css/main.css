@@ -1,0 +1,46 @@
+/* line 8, /mnt/2ADA7E2ADA7DF305/xampp/htdocs/form-elements/css/main.less */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* line 12, /mnt/2ADA7E2ADA7DF305/xampp/htdocs/form-elements/css/main.less */
+ul {
+  list-style: none;
+}
+/* line 15, /mnt/2ADA7E2ADA7DF305/xampp/htdocs/form-elements/css/main.less */
+li {
+  padding: 5px;
+}
+/* line 18, /mnt/2ADA7E2ADA7DF305/xampp/htdocs/form-elements/css/main.less */
+input[type="checkbox"],
+input[type="radio"] {
+  display: none;
+}
+/* line 21, /mnt/2ADA7E2ADA7DF305/xampp/htdocs/form-elements/css/main.less */
+input[type="checkbox"] + label:before,
+input[type="radio"] + label:before {
+  display: inline-block;
+  content: "";
+  border: 1px solid #9C9C9C;
+  margin: 5px;
+  width: 5px;
+  height: 5px;
+  padding: 3px;
+  background: lightblue;
+  vertical-align: middle;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  transition: background 200ms ease-in;
+}
+/* line 36, /mnt/2ADA7E2ADA7DF305/xampp/htdocs/form-elements/css/main.less */
+input[type="radio"] + label:before {
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+}
+/* line 40, /mnt/2ADA7E2ADA7DF305/xampp/htdocs/form-elements/css/main.less */
+input[type="checkbox"]:checked + label:before,
+input[type="radio"]:checked + label:before {
+  background: darkblue;
+}
